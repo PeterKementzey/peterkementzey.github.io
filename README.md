@@ -7,4 +7,4 @@
 - [Astro](https://astro.build)
 - [tailwindcss](https://tailwindcss.com/)
 - [DaisyUI](https://daisyui.com/)
-- Based on [Astrofy Template](https://astrofy-template.netlify.app/)
+- Based on [Astrofy Template](https://github.com/manuelernestog/astrofy)
