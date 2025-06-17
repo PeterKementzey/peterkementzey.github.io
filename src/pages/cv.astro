@@ -4,6 +4,32 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 ---
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv" showFooter={false}>
+  <div class="mb-8">
+    <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-2">
+      <div>
+        <div class="text-4xl font-bold">Peter Kementzey</div>
+        <div class="text-lg">Backend Software Engineer</div>
+      </div>
+      <div class="text-sm md:text-right">
+        <div>Amsterdam, the Netherlands</div>
+        <div>+31 6 2604 2608</div>
+        <div>
+          <a href="mailto:pkementzey@gmail.com" class="hover:underline text-blue-500">pkementzey@gmail.com</a>
+        </div>
+        <div>
+          <a href="https://peterkementzey.github.io" target="_blank" class="hover:underline text-blue-500">peterkementzey.github.io</a>
+        </div>
+        <div>
+          <a href="https://github.com/peterkementzey" target="_blank" class="hover:underline text-blue-500">github.com/peterkementzey</a>
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/in/peter-kementzey/" target="_blank" class="hover:underline text-blue-500">linkedin.com/in/peter-kementzey</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- 
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Profile</div>
   </div>
@@ -11,6 +37,7 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
   <div class="mb-10 text-justify">
     Backend Software Engineer with a focus on extensible, maintainable, reliable, and fast software. I believe today's software should be built with future changes in mind, and I strive to create simple modular designs that can adapt to evolving requirements. I am passionate about functional programming. Curious about technologies and eager to learn new things.
   </div>
+   -->
 
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Experience</div>
